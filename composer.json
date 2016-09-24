@@ -1,0 +1,19 @@
+{
+    "name": "odannyc/iphone-locator",
+    "description": "A simple tool to retrieve your iPhone's location using a reversed engineered iCloud API.",
+    "authors": [
+        {
+            "name": "Danny Carrillo",
+            "email": "odannycx@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "iPhoneLocator\\": "src/",
+            "tests\\": "tests/"
+        }
+    }
+}
